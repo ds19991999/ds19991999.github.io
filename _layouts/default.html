@@ -1,0 +1,88 @@
+---
+layout: compress
+--- 
+<!-- 计算网站运行时间 -->
+<span style="font-size:12px;"><script language=JavaScript> 
+ function secondToDate(second) {
+     if (!second) {
+        return 0;
+     }
+     
+ var time = new Array(0, 0, 0, 0, 0);
+     
+ if (second >= 365 * 24 * 3600) {
+     time[0] = parseInt(second / (365 * 24 * 3600));
+     second %= 365 * 24 * 3600;
+ }  
+     
+ if (second >= 24 * 3600) {
+     time[1] = parseInt(second / (24 * 3600));
+     second %= 24 * 3600;
+ }
+     
+ if (second >= 3600) {
+     time[2] = parseInt(second / 3600);
+     second %= 3600;
+ }
+     
+ if (second >= 60) {
+     time[3] = parseInt(second / 60);
+     second %= 60;
+ }
+     
+ if (second > 0) {
+     time[4] = second;
+ }
+    return time;
+}
+</script>
+    
+<!-- 动态显示网站运行时间 -->
+<script type="text/javascript" language="javascript">
+    function setTime() {
+        var create_time = Math.round(new Date(Date.UTC(2018, 05, 05, 0, 0, 0)).getTime() / 1000);
+        var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
+        currentTime = secondToDate((timestamp - create_time));
+        currentTimeHtml = '本站已安全运行' + currentTime[0] + '年' + currentTime[1] + '天' + currentTime[2] + '时' + currentTime[3] + '分' + currentTime[4] + '秒';
+        document.getElementById("htmer_time").innerHTML = currentTimeHtml;
+    }
+    setInterval(setTime, 1000);
+</script></span>
+
+<!-- 正文部分 -->
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include sidebar.html %}
+
+    <main id="main" class="open">
+      {{ content }}
+
+      <div class="footer">
+        <div class="container">          
+          <p class="footer-entry">
+           Copyright © 2018 <a href="https://ds19991999.github.io" target="_blank">ds19991999</a>.
+           Fork from<a href="https://github.com/P233" target="_blank"> Peiwen Lu </a>and <a href="https://github.com/suyan/suyan.github.io" target="_blank">Suyan</a>
+          </p>         
+          <p class="footer-entry"><span id="busuanzi_container_site_pv">您是本站第<span id="busuanzi_value_site_pv"></span>位小伙伴</span></p>
+          <p class="footer-entry"><span id="htmer_time" style="color: red;"></span></p> 
+        </div>
+      </div>
+    </main>
+
+    <button id="menu" class="open">
+      <span id="menu-icons"></span>
+    </button>
+
+    <button id="post-toc-menu">
+      <span id="post-toc-menu-icons"></span>
+    </button>
+    <div id="post-toc">
+      <span id="post-toc-title">Table of Contents</span>
+      <ul id="post-toc-ul"></ul>
+    </div>
+
+    {% include scripts.html %}
+  </body>
+</html>

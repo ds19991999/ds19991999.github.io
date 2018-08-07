@@ -1,0 +1,94 @@
+---
+layout: default
+---
+<article class="post container">
+  
+  <!-- 定义日期和标签容器 -->
+  <div class="post-meta">
+    <span class="post-meta-span date">{{ page.date | date:"%Y %B %d" }}</span>
+    {% if page.tags.size > 0 %}
+    <span class="post-meta-span tag">{{ page.tags | join: ', ' }}</span>
+    {% endif %}
+    
+    <!-- 阅读量统计和中英文文字数统计 -->
+    <span class="post-meta-span read" "id="busuanzi_container_page_pv">
+      Read <span id="busuanzi_value_page_pv">  </span>
+    </span>    
+    <span class="post-meta-span number" number>  
+      Number <span>{{ page.content | number_of_words }} </span>
+    </span>   
+    <span class="post-meta-span size">
+      Words <span>{{ content | strip_html | strip_newlines | split: "" | size }} </span>
+    </span>                                                
+  </div>
+                                                                                                                           
+  <!-- 文章标题格式，这就是md文件里的一级标题显示不出来的原因 -->
+  <h1 class="post-title">{{ page.title }}</h1>   
+  
+  <!-- 归档 -->
+  <span class="post-meta-span archives">
+    <a href="https://ds19991999.github.io/archives/" target="_blank">Archives</a>
+  </span>  
+                                                                  
+  <span class="post-meta-span tags">
+    <a href="https://ds19991999.github.io/tags/" target="_blank">Tags</a>
+  </span> 
+                                                                
+  <!-- 站内搜索引擎 -->
+  <span class="post-meta-span Search">
+    <a href="https://ds19991999.github.io/search-engine" target="_blank">Search</a>
+  </span> 
+ 
+  <!-- 在线编辑 -->
+  <span class="post-meta-span edit">
+    <a href="http://markdown.xiaoshujiang.com/" target="_blank">Edit</a>
+  </span> 
+  <!-- 歌单 -->
+  <span class="post-meta-span music">
+    <a href="https://ds19991999.github.io/test/music" target="_blank">Music</a>
+  </span>        
+  
+  <!-- 显示访问数据,统计中文字数 -->
+  <!-- 
+  <span id="busuanzi_container_page_pv">
+    阅读 <span id="busuanzi_value_page_pv"></span>
+  </span>
+  -->
+  <!-- 添加英文字数统计功能 -->
+  <!-- {{ page.content | number_of_words }} -->
+  <!-- 添加中文字数统计 -->
+  <!-- {{ content | strip_html | strip_newlines | split: "" | size }}-->
+  
+  <!-- 在正文开头添加网易云音乐插件 -->
+  {% if page.music-id %}
+    <br>
+    {% include cloud-music.html %}
+  {% endif %} 
+  
+  <!-- 正文部分 -->      
+  {{ content }} 
+                                                           
+  <!-- 添加Star和Fork Button -->
+  <iframe src="https://ghbtns.com/github-btn.html?user=ds19991999&repo=ds19991999.github.io&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+  <iframe src="https://ghbtns.com/github-btn.html?user=ds19991999&repo=ds19991999.github.io&type=fork&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+                                                           
+  <!-- 增加打赏和分享功能 -->
+  {% include share.html %}
+  <!--  include dashang.html  -->
+  <hr />     
+
+  <!-- 正文结束加评论功能，需要刷新网站才能显示 -->
+  {% if site.intensedebate_comments %}
+    {% include intensedebate-comments.html %}
+  {% endif %}                                                           
+</article>
+
+<!-- 网页尾部的分享部分,现在可以不用了注释掉 -->                                                          
+<div class="post-share">
+  <div class="container">
+    <a href="https://twitter.com/share?url={{ page.url | prepend: site.baseurl | prepend: site.url }}&text={{ page.title }}" target="_blank" class="post-share-icon twitter"></a>
+    <a href="http://service.weibo.com/share/share.php?url={{ page.url | prepend: site.baseurl | prepend: site.url }}&title={{ page.title }}" target="_blank" class="post-share-icon weibo"></a>
+
+  </div>
+  
+</div> 

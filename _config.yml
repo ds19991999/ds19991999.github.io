@@ -1,0 +1,53 @@
+# Site settings
+title: 帅
+email: cva.endineer.ding@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  ds19991999的博客
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: https://ds19991999.github.io/ # the base hostname & protocol for your site
+rss_url: /pages/feed.xml
+author: ds19991999
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+recent_num: 20
+
+# Social account
+github: ds19991999
+linkedin: sjycx-ding-3216bb115
+
+# avatar and Favicon
+avatar: https://raw.githubusercontent.com/ds19991999/ds19991999.github.io/master/assets/img/face.jpg
+favicon: https://raw.githubusercontent.com/ds19991999/ds19991999.github.io/master/assets/img/face.ico
+
+# disqus config
+disqus:
+  shortname: ds19991999
+
+# google analytics config
+ga:
+  id: UA-120959378-1
+  url: ds19991999.github.io
+  
+intensedebate_comments: true
+
+# Build settings
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+highlighter: rouge
+mathjax: disabled
+sass:
+  style: compressed
+
+# Jekyll Plugin
+# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag  # 生成一大堆 Meta 标签
+  - jekyll-feed     # 生成RSS源  
+  - jekyll-watch    # 提供文件变更的自动更新，让我们每次刷新都能自动看到最新的内容
+  - jekyll-jemoji   # 通过 Jemoji 在 Jekyll 生成的网站中，加入自己 Emoji 表情,Emoji 语法采用 GitHub 的语法风格
+  - jekyll-mentions # 允许你在文章中直接“@” GitHub 或其它网站用户
+  - jekyll-import   # 支持从一些国外的主流站点导入博文，如 Blogger, WordPress 和 Tumblr 等，同样也支持 RSS 和 CSV 等数据格式导入
+  - jekyll-archives # 用于生成带标签和分类的『存档』页面
