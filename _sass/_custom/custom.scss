@@ -1,0 +1,707 @@
+// Custom styles.
+.post {
+   margin-top: 0px;
+   margin-bottom: 60px;
+   padding: 25px;
+   -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
+   -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
+}
+
+// 添加
+// 页面最顶部的横线
+.headband {
+    height: 1.5px;
+    background-image: linear-gradient(90deg, #F79533 0%, #F37055 15%, #EF4E7B 30%, #A166AB 44%, #5073B8 58%, #1098AD 72%, #07B39B 86%, #6DBA82 100%);
+}
+
+// 页面顶部行高
+.header {
+    line-height: 1.5;
+}
+
+// 页面背景色
+//.container {
+//    background-color: rgba(0, 0, 0, 0.75);
+//}
+
+// 渐变彩带，CSS代码copy自https://githubuniverse.com
+.site-meta {
+    background-image: linear-gradient(90deg, #F79533 0%, #F37055 15%, #EF4E7B 30%, #A166AB 44%, #5073B8 58%, #1098AD 72%, #07B39B 86%, #6DBA82 100%);
+}
+
+// 站点名背景
+.brand{
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 15px;
+    padding: 0px;
+}
+
+// 菜单
+.menu {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.15);
+}
+// 菜单超链接字体大小
+.menu .menu-item a {
+    font-size: 15px;
+}
+// 菜单各项边距
+.menu .menu-item {
+    margin: 5px 15px;
+}
+// 菜单超链接样式
+.menu .menu-item a:hover {
+    border-bottom-color: rgba(161, 102, 171, 0);
+}
+
+// 文章
+.post {
+    margin-bottom: 50px;
+    padding: 45px 36px 36px 36px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 255, 255);
+}
+// 文章标题字体
+.posts-expand .post-title {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+// 文章标题动态效果
+.posts-expand .post-title-link::before {
+    background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);
+}
+// 文章元数据（meta）留白更改
+.posts-expand .post-meta {
+    margin: 10px 0px 20px 0px;
+}
+
+// 文章的描述description
+.posts-expand .post-meta .post-description {
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    color: #666;
+}
+
+// [Read More]按钮样式
+.post-button .btn {
+    color: #555 !important;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    font-size: 15px;
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+    border: none !important;
+    transition-property: unset;
+    padding: 0px 15px;
+}
+.post-button .btn:hover {
+    color: rgb(255, 255, 255) !important;
+    border-radius: 3px;
+    font-size: 15px;
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+    background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);
+}
+
+// 去除在页面文章之间的分割线
+.posts-expand .post-eof {
+    margin: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+// 去除页面底部页码上面的横线
+.pagination {
+    border: none;
+    margin: 0px;
+}
+
+// 文章底部的tags
+.posts-expand .post-tags a {
+    border-bottom: none;
+    margin-right: 0px;
+    font-size: 13px;
+    padding: 0px 5px;
+    border-radius: 3px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+.posts-expand .post-tags a:hover {
+    background: #eee;
+}
+
+// 文章底部留白更改
+.post-widgets {
+    padding-top: 0px;
+}
+.post-nav {
+    margin-top: 30px;
+}
+
+// 文章底部评论
+.comments {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+    margin: 80px 0px 40px 0px;
+}
+
+// 超链接样式
+a {
+    color: rgb(80, 115, 184);
+    border-bottom-color: rgb(80, 115, 184);
+}
+a:hover {
+    color: rgb(161, 102, 171);
+    border-bottom-color: rgb(161, 102, 171);
+}
+// 分割线样式
+hr {
+    margin: 10px 0px 30px 0px;
+}
+
+// 文章内标题样式（左边的竖线）
+.post-body h2, h3, h4, h5, h6 {
+    border-left: 4px solid rgb(161, 102, 171);
+    margin-left: -36px;
+    padding-left: 32px;
+}
+
+// 文章内标题样式（左边的竖线）
+.post-body h2, h3, h4, h5, h6 {
+    border-left: 4px solid rgb(161, 102, 171);
+    margin-left: -36px;
+    padding-left: 32px;
+}
+
+// 去掉图片边框
+.posts-expand .post-body img {
+    border: none;
+    padding: 0px;
+}
+.post-gallery .post-gallery-img img {
+    padding: 3px;
+}
+
+// 文章```代码块顶部样式
+.highlight figcaption {
+    margin: 0em;
+    padding: 0.5em;
+    background: #eee;
+    border-bottom: 1px solid #e9e9e9;
+}
+.highlight figcaption a {
+    color: rgb(80, 115, 184);
+}
+
+// 右下角侧栏按钮样式
+.sidebar-toggle {
+    right: 10px;
+    bottom: 43px;
+    background-color: rgba(247, 149, 51, 0.75);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+}
+
+// 右下角返回顶部按钮样式
+.back-to-top {
+    line-height: 1.5;
+    right: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+}
+.back-to-top.back-to-top-on {
+    bottom: 10px;
+}
+
+// 时间轴样式
+.posts-collapse {
+    margin: 50px 0px;
+}
+@media (max-width: 1023px) {
+    .posts-collapse {
+        margin: 50px 20px;
+    }
+}
+// 时间轴左边线条
+.posts-collapse::after {
+    margin-left: -2px;
+    background-image: linear-gradient(180deg,#f79533 0,#f37055 15%,#ef4e7b 30%,#a166ab 44%,#5073b8 58%,#1098ad 72%,#07b39b 86%,#6dba82 100%);
+}
+// 时间轴左边线条圆点颜色
+.posts-collapse .collection-title::before {
+    background-color: rgb(255, 255, 255);
+}
+// 时间轴文章标题左边圆点颜色
+.posts-collapse .post-header:hover::before {
+    background-color: rgb(161, 102, 171);
+}
+// 时间轴年份
+.posts-collapse .collection-title h1, .posts-collapse .collection-title h2 {
+    color: rgb(102, 102, 102);
+}
+// 时间轴文章标题
+.posts-collapse .post-title a {
+    color: rgb(80, 115, 184);
+}
+.posts-collapse .post-title a:hover {
+    color: rgb(161, 102, 171);
+}
+// 时间轴文章标题底部虚线
+.posts-collapse .post-header:hover {
+    border-bottom-color: rgb(161, 102, 171);
+}
+// archives页面顶部文字
+.page-archive .archive-page-counter {
+    color: rgb(0, 0, 0);
+}
+// archives页面时间轴左边线条第一个圆点颜色
+.page-archive .posts-collapse .archive-move-on {
+    top: 10px;
+    opacity: 1;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+// 分类页面
+.post-block.page {
+    margin-top: 40px;
+}
+.category-all-page {
+    margin: -80px 50px 40px 50px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: rgb(255, 255, 255);
+    padding: 86px 36px 36px 36px;
+}
+@media (max-width: 767px) {
+    .category-all-page {
+        margin: -73px 15px 50px 15px;
+    }
+    .category-all-page .category-all-title {
+        margin-top: -5px;
+    }
+}
+// 标签云页面
+.tag-cloud {
+    margin: -80px 50px 40px 50px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: rgb(255, 255, 255);
+    padding: 86px 36px 36px 36px;
+	min_font: 13;
+	max_font: 31;
+	amount: 1000;
+	color: true;
+	start_color: '#9733EE';
+	end_color: '#FF512F';
+}
+.tag-cloud-title {
+    margin-bottom: 15px;
+}
+@media (max-width: 767px) {
+    .tag-cloud {
+        margin: -73px 15px 50px 15px;
+        padding: 86px 5px 36px 5px;
+    }
+}
+
+// 自定义的TopX页面样式
+#top {
+    display: block;
+    text-align: center;
+    margin: -100px 50px 40px 50px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: rgb(255, 255, 255);
+    padding: 106px 36px 10px 36px;
+}
+@media (max-width: 767px) {
+    #top {
+        margin: -93px 15px 50px 15px;
+        padding: 96px 10px 0px 10px;
+    }
+}
+// 自定义ABOUT页面的样式
+.about-page {
+    margin: -80px 0px 60px 0px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: rgb(255, 255, 255);
+    padding: 106px 36px 36px 36px;
+}
+@media (max-width: 767px) {
+    .about-page {
+        margin: -73px 0px 50px 0px;
+        padding: 96px 15px 20px 15px;
+    }
+}
+h2.about-title {
+    border-left: none !important;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    text-align: center;
+    background-image: linear-gradient(90deg, #a166ab 0%, #a166ab 40%, #ef4e7b 45%, #f37055 50%, #ef4e7b 55%, #a166ab 60%, #a166ab 100%);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    user-select: none;
+}
+
+// 音乐播放器aplayer
+.aplayer {
+    font-family: Lato, -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STHeiti, "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", "Droid Sans Fallback", "Microsoft YaHei", sans-serif !important;
+}
+.aplayer-withlrc.aplayer .aplayer-info {
+    background-color: rgb(255, 255, 255);
+}
+// 音乐播放器aplayer歌单
+.aplayer .aplayer-list ol {
+    background-color: rgb(255, 255, 255);
+}
+// 修视频播放器dplayer页面全屏的bug
+.use-motion .post-body {
+    transform: inherit !important;
+}
+// 自定义emoji样式
+img#github-emoji {
+    margin: 0px;
+    padding: 0px;
+    display: inline !important;
+    vertical-align: text-bottom;
+    border: none;
+    cursor: text;
+    box-shadow: none;
+}
+// 文章超链接样式（为emoji特设）
+.post-body a {
+    color: rgb(80, 115, 184);
+    border-bottom: none;
+    text-decoration: underline;
+}
+.post-body a:hover {
+    color: rgb(161, 102, 171);
+    border-bottom: none;
+    text-decoration: underline;
+}
+// 标签云页面超链接样式（为emoji特设）
+.tag-cloud a {
+    border-bottom: 1px solid rgb(80, 115, 184);
+    text-decoration: none;
+}
+.tag-cloud a:hover {
+    border-bottom: 1px solid rgb(161, 102, 171);
+    text-decoration: none;
+}
+
+// 文章元数据中categories的样式（为emoji特设）
+a.categories {
+    color: rgb(80, 115, 184);
+    border-bottom: none;
+    text-decoration: underline;
+}
+a.categories:hover {
+    color: rgb(161, 102, 171);
+    border-bottom: none;
+    text-decoration: underline;
+}
+
+// tabs标签（为emoji特设）
+.post-body .tabs ul.nav-tabs li.tab a {
+    text-decoration: none;
+}
+// 图片下方标题设置（为emoji特设）
+a.fancybox{
+    text-decoration: none !important;
+}
+// 按钮样式（为emoji特设）
+.btn {
+    color: #fff !important;
+    text-decoration: none !important;
+    border: 2px solid #222 !important;
+}
+.btn:hover {
+    color: #222 !important;
+}
+
+// 自定义页脚跳动的心样式
+@keyframes heartAnimate {
+    0%,100%{transform:scale(1);}
+    10%,30%{transform:scale(0.9);}
+    20%,40%,60%,80%{transform:scale(1.1);}
+    50%,70%{transform:scale(1.1);}
+}
+#heart {
+    animation: heartAnimate 1.33s ease-in-out infinite;
+}
+.with-love {
+    color: rgb(255, 113, 168);
+}
+
+// 自定义特别的样式
+h2.love {
+    border-left: none;
+    color: rgb(255, 113, 168);
+    -webkit-text-fill-color: unset;
+}
+// 自定义的引用样式
+blockquote.question {
+    color: #555;
+    border-left: 4px solid rgb(16, 152, 173);
+    background-color: rgb(227, 242, 253);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-bottom: 20px;
+}
+// 自定义的数字块
+span#inline-toc {
+    display: inline-block;
+    border-radius: 80% 100% 90% 20%;
+    background-color: rgb(227, 242, 253);
+    color: #555;
+    padding: 0.05em 0.4em;
+    margin: 2px 5px 2px 0px;
+    line-height: 1.5;
+}
+
+
+// 自定义的TopX页面样式
+#top {
+    display: block;
+    text-align: center;
+    margin: -100px 50px 40px 50px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: rgb(255, 255, 255);
+    padding: 106px 36px 10px 36px;
+}
+@media (max-width: 767px) {
+    #top {
+        margin: -93px 15px 50px 15px;
+        padding: 96px 10px 0px 10px;
+    }
+}
+
+// 移动端样式
+@media (max-width: 1023px) {
+    .container {
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .sidebar {
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    .feed-link {
+        display: none !important;
+    }
+}
+@media (max-width: 767px) {
+    .main {
+        padding-bottom: 120px;
+    }
+    .posts-expand {
+        margin: 0px;
+        padding-top: 70px;
+    }
+    .posts-expand .post-title {
+        font-size: 22px;
+    }
+    .posts-expand .post-meta {
+        font-size: 10px;
+    }
+    .post {
+        margin-bottom: 30px !important;
+        padding: 20px 15px 15px 15px !important;
+    }
+    .post-body h2, h3, h4, h5, h6 {
+        margin-left: -15px;
+        padding-left: 11px;
+    }
+    .posts-expand .post-tags {
+        margin-top: 10px;
+    }
+    .post-widgets {
+        margin-top: 10px;
+    }
+    .comments {
+        margin: 40px 0px 40px 0px !important;
+    }
+    .footer {
+        box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+    }
+}
+.sidebar-active #sidebar-dimmer {
+    opacity: 0;
+}
+// 移动端左上角菜单按钮
+.site-nav-toggle {
+    top: 35px;
+    left: 10px;
+}
+.btn-bar {
+    background-color: rgb(255, 255, 255);
+}
+// 移动端菜单
+@media (max-width: 767px) {
+    .menu {
+        text-align: center;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    }
+    .site-nav {
+        top: initial;
+        background-color: rgba(255, 255, 255, 0.75);
+        border-top: none;
+        border-bottom: none;
+        position: relative;
+        z-index: 1024;
+    }
+}
+// 移动端顶部
+@media (max-width: 767px) {
+    .site-title {
+        font-size: 50px !important;
+        letter-spacing: 0px !important;
+    }
+    .site-subtitle{
+        letter-spacing: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .site-meta {
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    }
+    .menu .menu-item {
+        margin: 0px 10px !important;
+    }
+}
+
+// 自定义的页脚微信订阅号样式
+.weixin-box {
+    position: absolute;
+    bottom: 43px;
+    left: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+}
+.weixin-menu {
+    position: relative;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    background: url(https://raw.githubusercontent.com/ds19991999/githubimg/master/picgo/20180807203417.svg);
+    background-size: 24px 24px;
+}
+.weixin-hover {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 0px;
+    width: 0px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+    background: url(https://raw.githubusercontent.com/ds19991999/githubimg/master/picgo/20180807202314.svg);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    transition: all 0.35s ease-in-out;
+    z-index: 1024;
+    opacity: 0;
+}
+.weixin-menu:hover .weixin-hover {
+    bottom: 24px;
+    left: 24px;
+    height: 170px;
+    width: 150px;
+    opacity: 1;
+}
+.weixin-description {
+    opacity: 0;
+    position: absolute;
+    bottom: 1%;
+    left: 5%;
+    right: 5%;
+    font-size: 12px;
+    transition: all 0.35s cubic-bezier(1, 0, 0, 1);
+}
+.weixin-menu:hover .weixin-description {
+    opacity: 1;
+}
+
+
+
+
+
+// 鼠标样式
+  * {
+      cursor: url("/assets/images/mouse/cursor_7.png"),auto!important
+  }
+  :active {
+      cursor: url("/assets/images/mouse/cursor_3.png"),auto!important
+  }
+  
+  
+ body{
+    background:url(/assets/images/bg.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+}
+
+//友链居中
+.links-of-blogroll-title {
+  text-align: center;
+}
+
+//友链文本颜色
+//将链接文本设置为蓝色，鼠标划过时文字颜色加深，并显示下划线
+.post-body p a{
+  color: #0593d3;
+  border-bottom: none;
+  &:hover {
+    color: #0477ab;
+    text-decoration: underline;
+  }
+}
+
+
+//修改友情链接样式
+.links-of-blogroll-item a{
+  color: #0593d3;
+  border-bottom: none;
+  &:hover {
+    color: #0477ab;
+    text-decoration: underline;
+  }
+}
+
+//修改上一篇，下一篇链接文本样式
+.post-nav-item a{
+  color: #0593d3;
+  border-bottom: none;
+  &:hover {
+    color: #0477ab;
+    text-decoration: underline;
+  }
+}
+
+#days {
+    display: block;
+    color: rgb(7, 179, 155);
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.mjpage__block {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    overflow-x: auto;
+    vertical-align: bottom;
+}
+
+
+
