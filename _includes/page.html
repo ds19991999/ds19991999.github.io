@@ -12,17 +12,19 @@
             {{ __.counter.tag_cloud.other | replace: '%d', site.tags.size }}
           {% endif %}
       </div>
+	  <!-- 修改标签云颜色和大小 -->
       <div class="tag-cloud-tags">
-        {% assign min_font = 12 %}
-        {% assign max_font = 30 %}
-        {% assign amount = 200 %}
+        {% assign min_font = 13 %}
+        {% assign max_font = 31 %}
+        {% assign amount = 1000 %}
         {% assign color = true %}
-        {% assign start_color = '204,204,204' %}
-        {% assign end_color = '17,17,17' %}
+        {% assign start_color = '#24243e' %}
+        {% assign end_color = '#ff0000' %}
         {% include _helper/tagcloud.html %}
         {{ tagcloud }}
       </div>
     </div>
+
   {% elsif page.type == 'categories' %}
     <div class="category-all-page">
       <div class="category-all-title">
