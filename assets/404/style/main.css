@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #0c122a;
+	width: auto;
+	height: 100%;
+}
+a, a:visited {
+	color: #6d6c6c;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a img {
+	border: 0;
+}
+#container  {
+	min-width:900px;
+	height:100%;
+	width:100%;
+}
+
+/* Content */
+#stage {
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+}
+.stage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#astronaut {
+	width: 730px;
+	height: 650px;
+	background: transparent url(../images/astronaut.png) no-repeat;
+	position: relative;
+	margin-left: 50px;
+	top: 20%;
+}
+#space {
+	background: transparent url(../images/space.jpg) repeat-x 0 0 fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/* Text */
+#text_1 {
+	font-family: 'Bangers', cursive;
+	font-size: 30px;
+	color: #393939;
+	line-height: 28px;
+	position: absolute;
+	top: 102px;
+	left: 32px;
+	width:118px;
+}
+
+#text_2 {
+	font-family: 'Bangers', cursive;
+	font-size: 80px;
+	color: #2d2d2d;
+	width: 380px;
+	padding-right: 10px; 
+	position: absolute;
+	top: 10px;
+	left: 95px;
+}
+
+#text_3 {
+	font-family: 'Bangers', cursive;
+	font-size: 30px;
+	color: #393939;
+	line-height:40px;
+	width: 220px;
+	padding-left: 15px; 
+	position: absolute;
+	top: 93px;
+	left: 370px;
+}
+
+#text_4 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 18px;
+	color: #4c4c4c;
+	text-transform: uppercase;
+	font-style: italic;
+	position: absolute;
+	top: 180px;
+	left: 392px;
+}
+
+#text_5 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	position: absolute;
+	top: 205px;
+	left: 392px;
+}
+
+#text_5 ul li {
+	display: inline;
+	list-style-type: none;
+	border-left: 1px solid #6d6c6c;
+	padding: 0 0.4em 0 0.4em;
+	margin: 0 0.4em 0 -0.4em;
+}
+
+#text_5 ul li:first-child {
+	border-left: 0;
+}
+
+.search_box {
+	width: 286px;
+	height: 34px;
+	border: none;
+	position: absolute;
+	top: 224px;
+	left: 430px;
+}
+
+.inputField {
+	background: transparent url("../images/search_bg.png") no-repeat 0 0 scroll;
+    border: none;
+    color: #959595;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: italic;
+    font-size: 14px;
+    padding: 0 10px;
+    width: 218px;
+	height: 34px;
+	line-height: 30px;
+}
+
+.btn-search {
+	background: url("../images/search_btn.png") no-repeat scroll 0 0 transparent;
+    border: none;
+    cursor: pointer;
+    width: 54px;
+    height: 34px;
+    position: absolute;
+	right: 0;
+}
+
+.btn-search:hover {
+	background: url("../images/search_btn.png") no-repeat scroll 0 -36px transparent;
+}
