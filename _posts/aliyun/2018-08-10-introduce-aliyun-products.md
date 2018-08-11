@@ -17,7 +17,7 @@ password:
 
 先留下一个链接防丢失：[最新最全的阿里云产品手册出炉](https://yq.aliyun.com/articles/223194?spm=5176.100238.spm-cont-list.184.kSaNms)  ，产品手册共三册，有点多，留着之后慢慢看，不过我觉得看[官方帮助文档](https://help.aliyun.com/?spm=a2c4g.750001.1146454.4.VvcoI9)已经足够了，看文档累就看看视频[阿里云大学](https://edu.aliyun.com/promotion/17#floor1)。今天就先大概了解一下阿里云各种云产品及其服务，之后再详细介绍各种云产品的作用以及适用场景。
 
-> 参考：https://www.zhihu.com/question/24795126
+> 参考：[了解各种阿里云产品都是干嘛的](https://www.zhihu.com/question/24795126)
 
 
 
