@@ -326,7 +326,7 @@ excerpt_description: false
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
+  enable: true
   length: 50
 
 # Post meta display settings
