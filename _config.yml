@@ -44,6 +44,7 @@ paginate: 10
 highlighter: rouge
 highlight:
   line_number: true
+  auto_detect: true
 
 #### Markdown Processors
 ## 'redcarpet' is unsupported on GitHub Pages now.
