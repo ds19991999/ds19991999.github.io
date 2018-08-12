@@ -299,6 +299,12 @@
           <!--/noindex-->
         {% elsif post.excerpt  %}
           {% include _macro/post-excerpt.html %}
+		  
+			{% if post.image %}
+			<div class="out-img-topic">
+			  <img src={{ post.image }} class="img-topic" />
+			</div>
+			{% endif %}	  		  
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="{{ post.url | relative_url }}{% if site.scroll_to_more %}#{{ __.post.more }}{% endif %}" rel="contents">

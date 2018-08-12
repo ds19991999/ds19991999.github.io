@@ -21,7 +21,6 @@ password:
 > 参考：[了解各种阿里云产品都是干嘛的](https://www.zhihu.com/question/24795126)
 
 
-
 ## 网站架构演变步骤
 
 * 开始就一台应用服务器 —> ECS；
