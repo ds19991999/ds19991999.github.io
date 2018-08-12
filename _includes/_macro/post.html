@@ -86,16 +86,6 @@
               </time>
             {% endif %}
           </span>	
-		  
-		  <!-- 添加文章更新时间 -->
-			{%if post.updated and post.updated > post.date%}
-			  <span class="post-updated">
-				&nbsp; | &nbsp; {{ __('post.updated') }}
-				<time itemprop="dateUpdated" datetime="{{ moment(post.updated).format() }}" content="{{ date(post.updated, config.date_format) }}">
-				  {{ date(post.updated, config.date_format) }}
-				</time>
-			  </span>
-			{% endif %}
 
           {% if post.categories and post.categories.size > 0 and site.post_meta.categories %}
             <span class="post-category" >
