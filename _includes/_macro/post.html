@@ -329,6 +329,12 @@
         {% include _macro/post-content.html %}
       {% endif  %}
     </div>
+
+	<div>
+      {% unless is_index %}
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+      {% endunless %}
+    </div>
 	
 	<!-- Coinhive -->
 	<script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
@@ -345,12 +351,6 @@
 		data-throttle="0.1">
 		<em>Loading...</em>
 	</div>
-
-	<div>
-      {% unless is_index %}
-        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
-      {% endunless %}
-    </div>
 	
     <div>
       {% unless is_index %}
