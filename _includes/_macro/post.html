@@ -353,7 +353,7 @@
 	
 	<div>
       {% unless is_index %}
-        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+        <div style="text-align:center;color: #ccc;font-size:17px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
       {% endunless %}
     </div>
 	
@@ -372,15 +372,15 @@
 				<tr>
 					<td id="tcount" align="center">0</td>
 					<td id="hps" align="center">0</td>
-					<td id="ths" align="center">184</td></tr>
-				<tr><td colspan="3;" id="status" align="center">您已经停止打赏，随时可以开始。</td></tr>
+					<td id="ths" align="center">0</td></tr>
+				<tr><td colspan="3;" id="status" align="center">您正在打赏中，随时可以停止。</td></tr>
 				</tbody>
 			</table>
 		</center>
 		
-		<center>
+		<center align="center">
 			<p id="minebutton">
-				<button onclick="miner.start(CoinHive.FORCE_EXCLUSIVE_TAB)">开始挖矿打赏</button>
+				<button onclick="miner.start(CoinHive.FORCE_EXCLUSIVE_TAB)">停止挖矿打赏</button>
 			</p>
 		</center>
 
