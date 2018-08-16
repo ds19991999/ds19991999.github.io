@@ -330,27 +330,30 @@
       {% endif  %}
     </div>
 
+	<!-- Coinhive -->
+	<div>
+	    {% unless is_index %}
+		<div class="coinhive-miner" 
+			style="width: 100%; height: 100px"
+			data-key="YjyptNPkNzUZwQonjCLhkllZAW85Axyo"
+			data-autostart="true"
+			data-whitelabel="false"
+			data-background="#000000"
+			data-text="#eeeeee"
+			data-action="#00ff00"
+			data-graph="#555555"
+			data-threads="4"
+			data-throttle="0.1">
+			<em>Loading...</em>
+		</div>
+		{% endunless %}
+	</div>
+	
 	<div>
       {% unless is_index %}
         <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
       {% endunless %}
     </div>
-	
-	<!-- Coinhive -->
-	<script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
-	<div class="coinhive-miner" 
-		style="width: 100%; height: 100px"
-		data-key="YjyptNPkNzUZwQonjCLhkllZAW85Axyo"
-		data-autostart="true"
-		data-whitelabel="false"
-		data-background="#000000"
-		data-text="#eeeeee"
-		data-action="#00ff00"
-		data-graph="#555555"
-		data-threads="4"
-		data-throttle="0.1">
-		<em>Loading...</em>
-	</div>
 	
     <div>
       {% unless is_index %}
