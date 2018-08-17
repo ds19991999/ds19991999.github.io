@@ -49,7 +49,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 5px;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.1);
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.15);
 }
 // 菜单超链接字体大小
@@ -71,6 +71,7 @@
     margin-bottom: 10px;
     padding: 45px 36px 36px 36px;
     background-color: rgba(255, 255, 255, 0);
+	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 // 文章标题字体
 .posts-expand .post-title {
