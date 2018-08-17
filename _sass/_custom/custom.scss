@@ -5,6 +5,15 @@
     box-shadow: 0 2px 6px #dbdbdb;
 }
 
+// Post & Comments blocks.
+.post-block {
+  padding: $content-desktop-padding;
+  background: white;
+  box-shadow: $box-shadow-inner;
+  border-radius: $border-radius-inner;
+  background: rgba(255,255,255,.75) none repeat scroll !important;
+}
+
 .post {
    margin-top: 0px;
    margin-bottom: 60px;
