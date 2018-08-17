@@ -17,8 +17,8 @@
   overflow: hidden;
   padding: 0;
   width: 240px;
-  background: rgba(255, 255, 255, 0);
-  box-shadow: 0 2px 6px #dbdbdb;
+  background: white;
+  box-shadow: $box-shadow-inner;
   border-radius: $border-radius-inner;
 
   @include desktop-large() {
@@ -62,8 +62,7 @@
   box-sizing: border-box;
   padding: $content-desktop-padding;
   width: calc(100% - 260px);
-  background: rgba(255, 255, 255, 0);
-  box-shadow: 0 2px 6px #dbdbdb;
+  background: rgba(255,255,255,0.8);
   min-height: 700px;
   box-shadow: $box-shadow-inner;
   border-radius: $border-radius-inner;
@@ -86,8 +85,7 @@
   float: left;
   margin-top: 300px;
   width: $sidebar-desktop;
-  background: rgba(255, 255, 255, 0);
-  box-shadow: 0 2px 6px #dbdbdb;
+  background: $body-bg-color;
   box-shadow: none;
 
   @include tablet() {
