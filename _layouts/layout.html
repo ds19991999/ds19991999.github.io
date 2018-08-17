@@ -21,6 +21,16 @@
     loadlive2d("live2d", "/live2d/model/tia/model.json");
 </script>
 -->
+<!-- 使用CDN live2d-widget.js -->
+<script  src = “ //cdn.jsdelivr.net/npm/live2d-widget@4/dist/L2Dwidget.min.js ”> </script>
+<script type="text/javascript">
+	var currL2Dwidget = new L2Dwidget().init({
+	  'modelJsonPath': "https://cdn.jsdelivr.net/npm/live2d-widget-model-shizuku/assets/shizuku.model.json",
+	  'displayWidth': 150,
+	  'mobileShow': true
+	});
+</script>
+
 
 <!-- 百度分享 -->
 <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":["fbook","linkedin","twi","weixin","sqq"],"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"5","bdPos":"left","bdTop":"100"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
@@ -82,6 +92,7 @@ var _hmt = _hmt || [];
 
 <!-- 动态title -->
 <script type="text/javascript" src="/assets/js/src/dytitle.js"></script>
+
 <!-- 雪花特效 -->
 <script type="text/javascript" src="/assets/js/src/snow.js"></script>
 <script type="text/javascript">
