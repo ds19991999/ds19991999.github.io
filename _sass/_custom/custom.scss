@@ -5,15 +5,6 @@
     box-shadow: 0 2px 6px #dbdbdb;
 }
 
-// Post & Comments blocks.
-.post-block {
-  padding: $content-desktop-padding;
-  background: white;
-  box-shadow: $box-shadow-inner;
-  border-radius: $border-radius-inner;
-  background: rgba(255,255,255,.75) none repeat scroll !important;
-}
-
 .post {
    margin-top: 0px;
    margin-bottom: 60px;
@@ -39,6 +30,7 @@
 //    background-color: rgba(0, 0, 0, 0.75);
 //}
 
+//标题区
 // 渐变彩带，CSS代码copy自https://githubuniverse.com
 .site-meta {
     background-image: linear-gradient(90deg, #F79533 0%, #F37055 15%, #EF4E7B 30%, #A166AB 44%, #5073B8 58%, #1098AD 72%, #07B39B 86%, #6DBA82 100%);
@@ -711,5 +703,3 @@ span#inline-toc {
     overflow-x: auto;
     vertical-align: bottom;
 }
-
-
