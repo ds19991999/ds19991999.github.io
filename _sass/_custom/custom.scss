@@ -35,6 +35,32 @@
 .site-meta {
     background-image: linear-gradient(90deg, #F79533 0%, #F37055 15%, #EF4E7B 30%, #A166AB 44%, #5073B8 58%, #1098AD 72%, #07B39B 86%, #6DBA82 100%);
 }
+//设置标题区字体
+@font-face {
+    font-family: simi;
+    src: url('/assets/fonts/simi.otf');
+}
+//标题字体
+.site-title {
+    font-size: 40px !important;
+	font-family: 'simi' !important;
+}
+//副标题字体
+.site-subtitle {
+    font-size: 40px !important;
+	font-family: 'simi' !important;
+}
+//description字体
+.site-description {
+    font-size: 40px !important;
+	font-family: 'simi' !important;
+}
+//author字体
+.site-description {
+    font-size: 40px !important;
+	font-family: 'simi' !important;
+}
+
 
 // 站点名背景
 .brand{
