@@ -354,21 +354,6 @@ h2.about-title {
     user-select: none;
 }
 
-// 音乐播放器aplayer
-.aplayer {
-    font-family: Lato, -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STHeiti, "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", "Droid Sans Fallback", "Microsoft YaHei", sans-serif !important;
-}
-.aplayer-withlrc.aplayer .aplayer-info {
-    background-color: rgb(255, 255, 255);
-}
-// 音乐播放器aplayer歌单
-.aplayer .aplayer-list ol {
-    background-color: rgb(255, 255, 255);
-}
-// 修视频播放器dplayer页面全屏的bug
-.use-motion .post-body {
-    transform: inherit !important;
-}
 // 自定义emoji样式
 img#github-emoji {
     margin: 0px;
