@@ -117,10 +117,10 @@
 }
 
 // 去除在页面文章之间的分割线
-//.posts-expand .post-eof {
-//    margin: 0px;
-//    background-color: rgba(255, 255, 255, 0);
-//}
+.posts-expand .post-eof {
+    margin: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
 
 // 去除页面底部页码上面的横线
 .pagination {
@@ -153,7 +153,7 @@
 
 // 文章底部评论
 .comments {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
     margin: 80px 0px 40px 0px;
 }
