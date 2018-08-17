@@ -1,13 +1,12 @@
 {% comment %} tagcloud(min_font, max_font, amount, color, start_color, end_color) {% endcomment %}
 {% capture tagcloud %}
   {% assign tags = site.tags %}
-  {% assign max = 13 %}
-  {% assign min = 31 %}
-  {% assign color = true %}
+  {% assign max = max_font %}
+  {% assign min = min_font %}
   {% assign sizes = '' | split: '' %}
   {% assign unit = 'px' %}
-  {% assign start_color = '#9733EE' | split: ',' %}
-  {% assign end_color = '#FF512F' | split: ',' %}
+  {% assign start_color = start_color | split: ',' %}
+  {% assign end_color = end_color | split: ',' %}
 
   {% for tag in tags %}
     {% if forloop.index > amount %}
