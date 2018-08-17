@@ -26,9 +26,9 @@
 }
 
 // 页面背景色
-//.container {
-//    background-color: rgba(0, 0, 0, 0.75);
-//}
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
 
 //标题区
 // 渐变彩带，CSS代码copy自https://githubuniverse.com
@@ -175,11 +175,11 @@
 
 // 超链接样式
 a {
-    color: rgb(80, 115, 184);
+    color: #232526;
     border-bottom-color: rgb(80, 115, 184);
 }
 a:hover {
-    color: rgb(161, 102, 171);
+    color: #5073b8;
     border-bottom-color: rgb(161, 102, 171);
 }
 // 分割线样式
