@@ -661,10 +661,11 @@ span#inline-toc {
 //友链文本颜色
 //将链接文本设置为蓝色，鼠标划过时文字颜色加深，并显示下划线
 .post-body p a{
-  color: #0593d3;
+  text-align: center;
+  color: #434343;
   border-bottom: none;
   &:hover {
-    color: #0477ab;
+    color: #5073b8;
     text-decoration: underline;
   }
 }
@@ -672,20 +673,21 @@ span#inline-toc {
 
 //修改友情链接样式
 .links-of-blogroll-item a{
-  color: #0593d3;
+  text-align: center;
+  color: #434343;
   border-bottom: none;
   &:hover {
-    color: #0477ab;
+    color: #5073b8;
     text-decoration: underline;
   }
 }
 
 //修改上一篇，下一篇链接文本样式
 .post-nav-item a{
-  color: #0593d3;
+  color: #434343;
   border-bottom: none;
   &:hover {
-    color: #0477ab;
+    color: #5073b8;
     text-decoration: underline;
   }
 }
