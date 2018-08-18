@@ -1,0 +1,27 @@
+---
+layout: null
+sitemap: false
+---
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex">
+  <title>Content Manager</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/netlify-cms@^1.0/dist/cms.css" />
+
+  <script src="https://identity-js.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+  <script src="https://unpkg.com/netlify-cms@^1.0/dist/cms.js"></script>
+  <div style="position: absolute; left: 40%; top: 15px; z-index: 300;">
+    <a href="javascript:history.back();" style="margin-left: 2em;">返回</a>
+  	<a href="/" style="margin-left: 3em;">主页</a>
+    <a href="{{site.github-repo}}" style="margin-left: 4em;" target="_blank">仓库</a>
+    <a href="https://app.netlify.com/sites" style="margin-left: 2em;" target="_blank">Dashboard</a>
+  	<a href="https://www.netlifycms.org/docs/intro/" style="margin-left: 2em;" target="_blank">Docs</a>
+  </div>
+</body>
+</html>
