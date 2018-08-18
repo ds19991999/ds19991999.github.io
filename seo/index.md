@@ -1,5 +1,5 @@
 ---
-title: <i class="fa fa-internet-explorer icon-muted">导航</i>
+title: 导航
 layout: page
 ---
 
@@ -31,3 +31,7 @@ layout: page
 <h2><i class="fa fa-address-card-o  icon-muted"> </i> <span id="fa-chrome">小站证书</span></h2>
 
 <img src="https://raw.githubusercontent.com/ds19991999/githubimg/master/picgo/20180808154936.png"/>
+
+<h2><i class="fa fa-internet-explorer"> </i> <span id="fa-chrome">搜索引擎</span></h2>
+
+<iframe src="https://plus.likeso.ml/" width="100%" height="100%"></iframe> 
