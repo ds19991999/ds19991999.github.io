@@ -12,6 +12,10 @@
     background: rgba(255, 255, 255, 0);
     box-shadow: 0 2px 6px #dbdbdb;
 }
+// 页面背景色
+.container {
+    background-color: rgba(0, 0, 0, 0.8);
+}
 
 
 .post {
@@ -33,11 +37,6 @@
 .header {
     line-height: 1.5;
 }
-
-// 页面背景色
-//.container {
-//    background-color: rgba(0, 0, 0, 0.7);
-//}
 
 //标题区
 // 渐变彩带，CSS代码copy自https://githubuniverse.com
