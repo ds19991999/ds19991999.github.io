@@ -446,12 +446,12 @@ changyan:
 # 这个不错，使用github的issue进行评论
 # 但是只能使用github账号登录
 gitalk:
-  enable: false
-  clientID: # 54730ddf7b9420460c03
-  clientSecret: # c05684701b25ff1c19ea0c01ce4d80c125e0707d
-  repo: # colingpt.github.io
-  owner: # colingpt
-  admin: # colingpt
+  enable: true
+  clientID: f81a898cf980f229b9e1
+  clientSecret: a0476f8904c6c9ccba39b0e6926f93185e41d4e3
+  repo: ds19991999.github.io
+  owner: ds19991999
+  admin: ds19991999
 
 # 百度分享不支持https，但可以自行下载源码
 # 之后直接按照官网给的代码安装就OK了
