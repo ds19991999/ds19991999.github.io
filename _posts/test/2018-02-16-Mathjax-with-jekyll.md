@@ -4,7 +4,9 @@ date: 2018-02-16
 updated: 2018-08-18
 categories: test
 tags: [test, jekyll]
-photo: https://gastonsanchez.com/images/blog/mathjax_logo.png
+type: photo
+photo: 
+- https://gastonsanchez.com/images/blog/mathjax_logo.png
 math: 1
 ---
 
