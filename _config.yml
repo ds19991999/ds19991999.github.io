@@ -440,7 +440,7 @@ changyan:
 # 来必力访问太慢
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-livere_uid: MTAyMC8zODYzOS8xNTE2Nw==
+# livere_uid: MTAyMC8zODYzOS8xNTE2Nw==
 
 # Support for gitalk comments system.
 # 这个不错，使用github的issue进行评论
