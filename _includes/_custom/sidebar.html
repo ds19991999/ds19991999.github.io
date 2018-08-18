@@ -1,5 +1,20 @@
+<div id="calendar"></div>
+	<script type="text/javascript" src="/assets/calendar/calendar.js"></script>
+	<script type="text/javascript" src="/assets/calendar/calendar.css"></script>
+	<script type="text/javascript">
+		var calendar = $("#calendar").calendar(
+			{
+				tmpl_path: "/assets/calendar/tmpls/month.html",
+				events_source: function () { return []; }
+			});			
+	</script>
+
+	
+	
+	
+	
+	
 <div id="days"></div>
-</script>
 <script language="javascript">
 function show_date_time(){
 window.setTimeout("show_date_time()", 1000);
