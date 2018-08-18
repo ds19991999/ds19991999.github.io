@@ -261,7 +261,12 @@
 	{% if page.music-id %}
 		<br>
 		{% include cloud-music.html %}
-	{% endif %} 	
+	{% endif %} 
+	
+	<!-- 数学公式插件 -->
+	{% if page.math %}
+		{% include mathjax.html %}
+	{% endif %}	
 	
     <div class="post-body{% if site.han %} han-init-context{% endif %}" itemprop="articleBody">
 
