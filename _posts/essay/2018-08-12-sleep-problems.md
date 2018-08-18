@@ -4,9 +4,7 @@ date: 2018-08-12 00:00:00
 updated: 2018-08-12 08:00:00
 description: 结合自身情况介绍一下当前社会普遍存在的一些睡眠问题。
 categories: 生活
-type: photo
-photos:
-- https://raw.githubusercontent.com/ds19991999/githubimg/master/picgo/20180812145718.jpg
+image: https://raw.githubusercontent.com/ds19991999/githubimg/master/picgo/20180812145718.jpg
 tags: 睡眠 生活
 music-id: 491915705
 password:
