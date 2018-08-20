@@ -31,6 +31,5 @@ type: about
 ## 最后欢迎调戏😍
 
 * 各位看官有什么问题可以点击右下角的在线联系按钮，直接联系我，是不是很方便🐤哈哈。欢迎调戏！
-
-- 关于本博客更详细的介绍见：[Wiki页](https://github.com/ds19991999/ds19991999.github.io/wiki)
-- 个人网站：[DS Blog](https://www.ds-vip.top/)
+* 关于本博客更详细的介绍见：[Wiki页](https://github.com/ds19991999/ds19991999.github.io/wiki)
+* 个人网站：[DS Blog](https://www.ds-vip.top/)
