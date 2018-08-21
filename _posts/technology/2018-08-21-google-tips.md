@@ -16,6 +16,12 @@ music-id: 31234010
 >
 > 1. [Google搜索命令](https://zybuluo.com/Hopelessness/note/728755#google%E6%90%9C%E7%B4%A2%E5%91%BD%E4%BB%A4)
 > 2. [Google搜索帮助](https://support.google.com/websearch#topic=)
+> 3. [科学上网漫游指南](https://lvii.gitbooks.io/outman/content/)
+> 4. [科学上网](https://my-space.readthedocs.io/zh/latest/gfw_is_shit/)
+> 5. [科学上网总结](https://strivebo.com/2018/02/12/2018-02-12%E3%80%90%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E3%80%91%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E6%80%BB%E7%BB%93v1.0/)
+> 6. [自建梯子教程](https://github.com/firewallTutor/firewallTutor)
+> 7. [如何翻墙](https://book.gitlore.com/darren/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E8%87%AA%E6%88%91%E4%BF%AE%E5%85%BB/effciency/great-fire-wall.html)
+> 8. [科学上网相关知识总结](https://crifan.github.io/scientific_network_summary/website/)
 
 ## 先娱乐一下😴
 
