@@ -188,5 +188,5 @@ I2P 是一个路由系统，它能够让应用秘密地互相发送信息而无�
 
 
 
-注：[cryptonote系统]https://github.com/cryptonotefoundation/cryptonote、[monero](https://getmonero.org/)
+**注：[cryptonote系统](https://github.com/cryptonotefoundation/cryptonote)、[monero](https://getmonero.org/)**
 
