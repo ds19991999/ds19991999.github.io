@@ -226,10 +226,15 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
+  CSDN: https://blog.csdn.net/ds19991999
   GitHub: https://github.com/ds19991999
   Email: mailto:super@ds-vip.top
-  CSDN: https://blog.csdn.net/ds19991999
-  Music: https://open.spotify.com/browse/featured
+  Facebook: https://www.facebook.com/ds19991999
+  Twitch: https://www.twitch.tv/ds19991999
+  Twitter: https://twitter.com/ds19991999
+  YouTube: https://www.youtube.com/channel/UC_tUpZ-kfsNuiW5VoMMGCPw/featured
+  Spotify: https://soundsgood.co/curator/ds19991999
+  
 
 # Social Links Icons
 # Icon Mapping:
@@ -245,10 +250,12 @@ social_icons:
   Twitter: twitter
   Weibo: weibo
   CSDN: angellist
-  Music: music
   Facebook: facebook
   Email: envelope-o 
-  
+  YouTube: youtube-play
+  Spotify: spotify
+  Twitch: twitch
+  Music: music
 
 
 # Sidebar Avatar
@@ -305,6 +312,7 @@ links_title: Music
 links_layout: block
 #links_layout: inline
 links:
+  😉😉😉😴😴😴😇😇😇😍😍😍: #
 
 
 # ---------------------------------------------------------------
