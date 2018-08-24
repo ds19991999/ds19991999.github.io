@@ -1,0 +1,36 @@
+---
+title: 导航
+layout: page
+---
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#FFFFFF" id="color">
+    <title>GO</title>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="" id="css">
+</head>
+<body>
+    <noscript>
+      <div class="no-js">网站需要浏览器支持（启用）JavaScript</div>
+    </noscript>
+    <div id="con" class="con">
+        <div id="icon" class="icon"></div>
+        <div class="so">
+            <div class="in">
+                <input type="text" id="text" maxlength="2048" autofocus="autofocus">
+            </div>
+            <div class="sub" id="sub"></div>
+        </div>
+        <div class="url">
+            <ul class="ul" id="ul"></ul>
+        </div>
+    </div>
+    <div onclick="change_theme(true)" id="theme" class="theme"></div>
+</body>
+<script src="js/url.js"></script>
+<script src="js/run.js"></script>
+</html>

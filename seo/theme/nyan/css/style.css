@@ -1,0 +1,20 @@
+.con{
+    background: #194894;
+}
+
+.icon{
+    background: url("../img/github_nyan.gif") no-repeat ;
+    background-size: 100% 100%;
+}
+
+.theme{
+    background: url("../img/theme_nyan.png") no-repeat ;
+    background-size: 100% 100%;
+}
+
+.ul li a{
+    color: #DDD;
+}
+.ul li:hover a{
+    color: #FFF;
+}
