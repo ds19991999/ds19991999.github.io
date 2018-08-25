@@ -128,7 +128,6 @@ menu:
   top: /top/
   categories: /categories/
   tags: /tags/
-  friends: /friends/
   resume: /resumes/
   myseo: /myseo/
   #sitemap: /sitemap.xml
@@ -153,7 +152,6 @@ menu_icons:
   sitemap: sitemap
   commonweal: heartbeat
   myseo: internet-explorer
-  friends: link
   top: signal
   resume: handshake-o
   essay: commenting
@@ -309,7 +307,6 @@ sidebar:
 
 # Blog rolls
 links_title: 友链
-link_icon: link
 #布局，一行一个连接
 links_layout: block 
 #links_layout: inline
