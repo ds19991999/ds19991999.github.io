@@ -130,7 +130,7 @@ menu:
   tags: /tags/
   friends: /friends/
   resume: /resumes/
-  seo: /seo/
+  myseo: /myseo/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -152,7 +152,7 @@ menu_icons:
   archives: archive
   sitemap: sitemap
   commonweal: heartbeat
-  seo: internet-explorer
+  myseo: internet-explorer
   friends: link
   top: signal
   resume: handshake-o
