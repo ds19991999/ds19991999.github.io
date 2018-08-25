@@ -308,11 +308,13 @@ sidebar:
 
 
 # Blog rolls
-links_title: Music
-links_layout: block
+links_title: 友链
+link_icon: link
+#布局，一行一个连接
+links_layout: block 
 #links_layout: inline
 links:
-  😉😉😉😴😴😴😇😇😇😍😍😍: #
+  帅导航: https://www.ds-vip.top/myseo/
 
 
 # ---------------------------------------------------------------
