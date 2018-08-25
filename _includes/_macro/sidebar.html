@@ -131,9 +131,8 @@
               {% for name_link in site.links %}
                 {% assign name = name_link[0] %}
                 {% assign link = name_link[1] %}
-				<i class="fa fa-eye" aria-hidden="true"></i>
                 <li class="links-of-blogroll-item">
-                  <a href="{{ link }}" title="{{ name }}" target="_blank">{{ name }}</a>
+                  <a href="{{ link }}" title="{{ name }}" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i>{{ name }}</a>
                 </li>
               {% endfor %}
             </ul>
