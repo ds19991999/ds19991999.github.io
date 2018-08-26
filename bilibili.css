@@ -26,10 +26,6 @@ body[style="background: none transparent"]{
 .nav-item .dd-bubble .bubble-nav{
     background-color: rgba(255,255,255,.96);
 }
-.bili-header-m .dynamic-m .dyn_list_wrapper,
-.bili-header-m .dynamic-m .dyn_list_wrapper .dyn_list{
-    background-color: transparent;
-}
 /*顶栏*/
 .head-banner,
 .z-top-container.has-banner>.header{/*total*/
@@ -142,23 +138,11 @@ body:not(.widescreen) .nav-menu .m-i.side-nav .i_num{
     width: 100%;
     border: none;
 }
-.bili-header-m .bili-wrapper,
-#app .bili-header-m .bili-wrapper{
-    width: 1220px;
-}
-@media screen and (max-width: 1400px){
-.bili-header-m .bili-wrapper,
-#app .bili-header-m .bili-wrapper{
-    width: 1040px;
-}  
-}
+
 .view-later-module{
     margin-top: 20px;
 }
-#server-header-app,
-.bili-header-m{
-    background-color: transparent;
-}
+
 #primary_menu.border-b{
     border: none;
 }
@@ -231,15 +215,7 @@ body:not(.widescreen) .nav-menu .m-i.side-nav .i_num{
 	}
 }
 /*search*/
-.bilibili-suggest{
-    background-color: rgba(255, 255, 255, 0.95) !important;
-}
-.bilibili-suggest .b-line span{
-    background-color: transparent !important;
-}
-.bilibili-suggest iframe{
-    display: none !important;
-}
+
 .suggest-item{
     padding-right: 0 !important;
     overflow: hidden !important;
@@ -264,25 +240,7 @@ body:not(.widescreen) .nav-menu .m-i.side-nav .i_num{
     width: 38px;
     height: 29px;
 }
-.bilibili-suggest .clearall{
-    background-color: #F3F3F3;
-    padding: 2px 5px 2px 5px;
-    border-radius: 10px;
-    color: #BBBBBB !important;
-}
-.bilibili-suggest .clearall:hover{
-    color: #999999 !important;
-}
 /*search*/
-.bilibili-suggest{
-    background-color: rgba(255, 255, 255, 0.95) !important;
-}
-.bilibili-suggest .b-line span{
-    background-color: transparent !important;
-}
-.bilibili-suggest iframe{
-    display: none !important;
-}
 .suggest-item{
     padding-right: 0 !important;
     overflow: hidden !important;
@@ -307,15 +265,6 @@ body:not(.widescreen) .nav-menu .m-i.side-nav .i_num{
     width: 38px;
     height: 29px;
 }
-.bilibili-suggest .clearall{
-    background-color: #F3F3F3;
-    padding: 2px 5px 2px 5px;
-    border-radius: 10px;
-    color: #BBBBBB !important;
-}
-.bilibili-suggest .clearall:hover{
-    color: #999999 !important;
-}
 /*适配、美化解除地区限制脚本*/
 .nav-goto-top{
     border: 1px solid #e5e9ef !important;
@@ -338,8 +287,4 @@ body:not(.widescreen) .nav-menu .m-i.side-nav .i_num{
 }
 .balh_settings .btn_gotop:hover svg{
     fill: #fff !important;
-}
-/*尾部*/
-.footer{
-    display: none !important;
 }
