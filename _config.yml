@@ -73,6 +73,8 @@ plugins:
  - jemoji
  - jekyll-sitemap
  - jekyll-feed
+ # 将页面和帖子翻译成多种语言
+ - jekyll-language-plugin
 
 # ---------------------------------------------------------------
 # Site Information Settings
