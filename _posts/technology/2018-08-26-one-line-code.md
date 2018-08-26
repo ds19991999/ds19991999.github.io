@@ -160,10 +160,6 @@ textarea {
 data:text/html, <style type="text/css">#e{position:absolute;top:0;right:0;bottom:0;left:0;}</style><div id="e"></div><script src="http://cdnjs.cloudflare.com/ajax/libs/ace/1.2.3/ace.js" type="text/javascript" charset="utf-8"></script><script>var e=ace.edit("e");e.setTheme("ace/theme/monokai");e.getSession().setMode("ace/mode/ruby");</script>
 ```
 
-```html
-data:text/html,<script>(function(b,l,k){b.innerHTML=l.getItem(k);b.addEventListener("keypress",function(e){l.setItem(k,b.innerHTML)},false)})(document.body,localStorage,"bkmlt.ntpd")</script>
-```
-
 ## 另一种html编辑器带预览
 
 ```html
