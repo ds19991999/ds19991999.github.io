@@ -10,10 +10,14 @@
 
 ## 个人活跃网站
 
-[网易云音乐](https://music.163.com/) 搜索用户`ds19991999`就可以找到，[CSDN博客](https://blog.csdn.net/ds19991999)，[GitHub](https://github.com/ds19991999)，以及[DS Blog](https://ds19991999.github.io/)。
+- [Cloud Music](https://music.163.com/#/user/home?id=433004995)
+- [CSDN](https://blog.csdn.net/ds19991999)
+- [GitHub](https://github.com/ds19991999)
+- [DS Blog](https://ds19991999.github.io/)
 
 ## 最后欢迎调戏😍
 
 * 各位看官有什么问题可以点击右下角的在线联系按钮，直接联系我，是不是很方便🐥哈哈。欢迎调戏！
 * 关于本博客更详细的介绍见：[Wiki页](https://github.com/ds19991999/ds19991999.github.io/wiki)
 * 个人网站：[DS Blog](https://www.ds-vip.top/)
+
