@@ -1,14 +1,15 @@
 ---
-title: 书单
+title: Python书单😇
 ---
 
+* 目录
 {:toc}
 
-## 学习向导
+## 学习向导😍
 
 - [学习向导](https://ds-ebooks.github.io/Guide)
 
-## Python基础
+## Python👍基础
 
 - 比较好的中文网站
   - [Python中文学习大本营](http://www.pythondoc.com/)
@@ -25,7 +26,7 @@ title: 书单
   - [Python3 Cookbook](http://python3-cookbook.readthedocs.io/zh_CN/latest/)
   - [Python进阶](https://github.com/eastlakeside/interpy-zh)
 
-## 计算机基础
+## 计算机🍉基础
 
 ### 操作系统
 
@@ -36,16 +37,9 @@ title: 书单
 - Git笔记
   - [个人总结的Git笔记](https://ds-ebooks.github.io/Git-Note)
   - [在线练习git](https://learngitbranching.js.org/)
-  - [progit](https://legacy.gitbook.com/book/bingohuang/progit2/details)
-  - [git note](https://github.com/CyC2018/Interview-Notebook/blob/master/notes/Git.md)
-  - [git简明教程](http://rogerdudler.github.io/git-guide/index.zh.html)
-  - [图解git](http://marklodato.github.io/visual-git-guide/index-zh-cn.html)
-  - [廖雪峰：git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
-- GitBook
-  - [GitBook介绍文档](https://chrisniael.gitbooks.io/gitbook-documentation/content/)
-  - [GitBook入门](https://yuzeshan.gitbooks.io/gitbook-studying/)
-  - [gitbook简明教程](http://www.chengweiyang.cn/gitbook/)
+- [GitBook](https://docs.gitbook.com/)
   - [GitBook文档](https://chrisniael.gitbooks.io/gitbook-documentation/content/)
+  - [GitBook高级配置](https://www.ds-vip.top/%E6%8A%80%E6%9C%AF/2018/08/25/use-gitbook/)
 
 ### 数据库
 
@@ -67,7 +61,22 @@ title: 书单
 - Shell
 - Linux
 
-## 数据分析
+### 工具
+
+- [GFM Spec](https://github.github.com/gfm/#example-1) 、[GFM标准](https://ds-ebooks.github.io/GFM)
+- [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/)
+- [Pycharm教程](https://blog.csdn.net/column/details/pycharm.html)
+
+## 数据分析💪
+
+### 必要的前端知识
+
+- CSS
+- Javascript
+- PHP
+- Java
+- HTML
+- XML
 
 ### 基础理论
 
@@ -85,7 +94,9 @@ title: 书单
 - Plotly
 - TensorFlow
 - Scikit Learn
-- OpenCV
+- [OpenCV](https://opencv.org/)
+  - [官方OpenCV Tutorials](https://docs.opencv.org/master/d9/df8/tutorial_root.html)
+  - [OpenCV-Python-Tutorials-zh](https://justyjq.gitbooks.io/opencv-python-tutorials/content/) 、[OpenCV-Python Tutorials-en](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html)
 - [GISpark](http://gispark.readthedocs.io/zh_CN/latest/index.html)-----地理空间信息分布式计算平台
 
 ### 云计算框架
@@ -99,7 +110,11 @@ title: 书单
 - Django
 - Flask
 
-## 面试/笔试
+### 区块链
+
+- [区块链教程](https://ds-ebooks.github.io/blockchain-tutorial/)
+
+## 面试🤝笔试
 
 - [关于Python的面试题](https://github.com/taizilongxu/interview_python)
 - [Interview-Notebook](https://ds-ebooks.github.io/Interview-
@@ -109,24 +124,3 @@ title: 书单
 - [interviews](https://github.com/kdn251/interviews/blob/master/README-zh-cn.md)
 - [笔试面试整理](https://hit-alibaba.github.io/interview/)
 - [互联网公司技术架构](https://github.com/davideuler/architecture.of.internet-product)
-
-## 工具
-
-- [GFM Spec](https://github.github.com/gfm/#example-1)
-- [Markdown-
-  GFM标准](https://ds-ebooks.github.io/GFM)
-- [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/)
-- [Pycharm教程](https://blog.csdn.net/column/details/pycharm.html)
-
-## 必要的前端知识
-
-- CSS
-- Javascript
-- PHP
-- Java
-- HTML
-- XML
-
-## 区块链
-
-* [区块链教程](https://ds-ebooks.github.io/blockchain-tutorial/)
