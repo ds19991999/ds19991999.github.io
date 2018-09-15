@@ -725,3 +725,8 @@ span#inline-toc {
 li.links-of-blogroll-item {
     text-align: center;
 }
+
+@media (max-width: 767px)
+.comments {
+    margin: 0px 0px 0px 0px !important;
+}

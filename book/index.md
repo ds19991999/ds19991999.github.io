@@ -37,6 +37,7 @@ title: Python书单😇
 ### 3.1 操作系统
 
 - [CSDN操作系统专栏](https://blog.csdn.net/xw_classmate/article/category/5960581)
+- [Linux命令行](http://billie66.github.io/TLCL/book/)
 
 ### 3.2 Git
 
