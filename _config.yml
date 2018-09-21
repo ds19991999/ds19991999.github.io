@@ -132,6 +132,7 @@ menu:
   tags: /tags/
   resume: /resume/
   myseo: /myseo/
+  friends: /myseo/href.html
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -157,6 +158,7 @@ menu_icons:
   top: signal
   resume: handshake-o
   essay: commenting
+  frends: link
 
 # ---------------------------------------------------------------
 # Scheme Settings
