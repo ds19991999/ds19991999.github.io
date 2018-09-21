@@ -129,9 +129,9 @@ menu:
   top: /top/
   categories: /categories/
   tags: /tags/
+  essay: /essay/
   resume: /resume/
   myseo: /myseo/
-  friends: /href/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
