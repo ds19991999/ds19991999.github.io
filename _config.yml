@@ -124,7 +124,6 @@ index_with_subtitle: true
 menu:
   home: /
   about: /about/
-  essay: /essay/
   book: /book/
   archives: /archives/
   top: /top/
@@ -132,7 +131,7 @@ menu:
   tags: /tags/
   resume: /resume/
   myseo: /myseo/
-  friends: /myseo/href.html
+  friends: /href/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -158,7 +157,7 @@ menu_icons:
   top: signal
   resume: handshake-o
   essay: commenting
-  frends: link
+  friends: link
 
 # ---------------------------------------------------------------
 # Scheme Settings
