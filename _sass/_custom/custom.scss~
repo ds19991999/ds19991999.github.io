@@ -11,12 +11,16 @@
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.8);
 }
 .sidebar-inner {
-    background: rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 0.8);
 	box-shadow: 0 2px 6px #dbdbdb;
 }
 .header-inner {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.8);
     box-shadow: 0 2px 6px #dbdbdb;
+}
+.footer {
+    font-size: 14px;
+    color: #434343;
 }
 // 页面背景色ffefba
 //.container {
@@ -660,7 +664,7 @@ span#inline-toc {
   
 //自定义背景图片  
  body{
-    background:url(/assets/images/1.png);
+    background:url(/assets/background/1.png);
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment:fixed;
