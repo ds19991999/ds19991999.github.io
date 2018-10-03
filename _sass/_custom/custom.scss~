@@ -660,7 +660,7 @@ span#inline-toc {
   
 //自定义背景图片  
  body{
-    background:url(/assets/images/bg.jpg);
+    background:url(/assets/images/1.png);
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment:fixed;
