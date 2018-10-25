@@ -32,3 +32,6 @@
 * 关于本博客更详细的介绍见：[Wiki页](https://github.com/ds19991999/ds19991999.github.io/wiki)
 * 个人网站：[DS Blog](https://www.ds-vip.top/)
 
+## License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
