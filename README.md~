@@ -1,16 +1,16 @@
 # Personal Blog
-[![GitHub issues](https://img.shields.io/github/issues/ds19991999/VerCodeMFC.svg)](https://github.com/ds19991999/VerCodeMFC/issues)
-[![Github downloads](https://img.shields.io/github/downloads/ds19991999/VerCodeMFC/total.svg)](https://github.com/ds19991999/VerCodeMFC/releases/latest)
-[![DUB](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/ds19991999/VerCodeMFC/blob/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/ds19991999/VerCodeMFC.svg)](https://github.com/ds19991999/VerCodeMFC/releases)
-[![GitHub gitbook](https://img.shields.io/badge/_-gitbook-4ab8a1.svg)](https://www.ds-vip.top/VerCodeMFC/)
+[![GitHub issues](https://img.shields.io/github/issues/ds19991999/ds19991999.github.io.svg)](https://github.com/ds19991999/ds19991999.github.io/issues)
+[![Github downloads](https://img.shields.io/github/downloads/ds19991999/ds19991999.github.io/total.svg)](https://github.com/ds19991999/ds19991999.github.io/releases/latest)
+[![DUB](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/ds19991999/ds19991999.github.io/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/ds19991999/ds19991999.github.io.svg)](https://github.com/ds19991999/ds19991999.github.io/releases)
 
 <div align="center">
-  <a href="https://github.com/ds-ebooks">
-    <img src="https://avatars2.githubusercontent.com/u/41121785?s=400&u=30e9a25b3ebbb09acba5fe983326c7d2ec5f5e21&v=4" width="150px">
+  <a href="https://www.ds-vip.top">
+    <img src="https://raw.githubusercontent.com/ds19991999/githubimg/master/picgo/20180820123940.jpg">
   </a>
-  <p>C++课程设计，使用MFC实现随机验证码的生成与识别.</p>
+    <p><a href="https://www.jekyll.com.cn/">Jekyll</a>博客<a href="https://github.com/iissnan/hexo-theme-next">Next</a>主题配置</p>
 </div>
+
 ## 关于本博客
 
 本博客通过[jekyll-theme-next ](https://github.com/Simpleyyt/jekyll-theme-next)修改生成，感谢[Simpleyyt](https://github.com/Simpleyyt)的开发。本人有点强迫症，之前那个博客虽然看着很清秀，但是总感觉少了点什么，然后就萌发了重建博客的决定。

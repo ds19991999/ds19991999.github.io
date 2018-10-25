@@ -1,9 +1,8 @@
 # Personal Blog
 [![GitHub issues](https://img.shields.io/github/issues/ds19991999/ds19991999.github.io.svg)](https://github.com/ds19991999/ds19991999.github.io/issues)
-[![Github downloads](https://img.shields.io/github/downloads/ds19991999/ds19991999.github.io/total.svg)](https://github.com/ds19991999/VerCodeMFC/releases/latest)
+[![Github downloads](https://img.shields.io/github/downloads/ds19991999/ds19991999.github.io/total.svg)](https://github.com/ds19991999/ds19991999.github.io/releases/latest)
 [![DUB](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/ds19991999/ds19991999.github.io/blob/master/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/ds19991999/ds19991999.github.io.svg)](https://github.com/ds19991999/ds19991999.github.io/releases)
-[![GitHub gitbook](https://img.shields.io/badge/_-gitbook-4ab8a1.svg)](https://www.ds-vip.top/VerCodeMFC/)
 
 <div align="center">
   <a href="https://www.ds-vip.top">
