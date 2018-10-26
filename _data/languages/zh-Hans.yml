@@ -25,7 +25,7 @@ menu:
   friends: 友链
   top: TopX
   resume: 简历
-  essay: 碎碎念
+  essay: 留言
 
 sidebar:
   overview: 站点概览
@@ -91,7 +91,7 @@ cheers:
   great: 非常好
   excellent: 太棒了
 
-keep_on: 继续努力。
+keep_on: 继续努力！
 
 symbol:
   comma: '， '
