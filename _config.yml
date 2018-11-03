@@ -125,6 +125,7 @@ menu:
   home: /
   about: /about/
   book: /book/
+  notes: http://47.107.129.219:8080/lab?
   archives: /archives/
   top: /top/
   categories: /categories/
@@ -147,6 +148,7 @@ menu_icons:
   home: home
   about: user
   book: book
+  notes: pencil
   categories: th
   schedule: calendar
   tags: tags
