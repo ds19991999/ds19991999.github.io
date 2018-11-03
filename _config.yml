@@ -448,13 +448,13 @@ changyan:
 # 来必力访问太慢
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-# livere_uid: MTAyMC8zODYzOS8xNTE2Nw==
+livere_uid: MTAyMC8zODYzOS8xNTE2Nw==
 
 # Support for gitalk comments system.
 # 这个不错，使用github的issue进行评论
 # 但是只能使用github账号登录
 gitalk:
-  enable: true
+  enable: false
   clientID: f81a898cf980f229b9e1
   clientSecret: a0476f8904c6c9ccba39b0e6926f93185e41d4e3
   repo: ds19991999.github.io
