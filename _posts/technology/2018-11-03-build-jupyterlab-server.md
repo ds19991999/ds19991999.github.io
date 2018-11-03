@@ -306,7 +306,14 @@ jupyter kernelspec remove <kernel_name>
 * 其他内核安装：https://github.com/jupyter/jupyter/wiki/Jupyter-kernels
 
 ## 8、域名和`https`配置
+域名和SSL配置可以参考这两篇文章：
+* [阿里云如何配置HTTPS](https://kinm.github.io/2017/07/03/%E9%98%BF%E9%87%8C%E4%BA%91%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AEHTTPS/)
 * nginx服务器配置教程（以ubuntu 16.04为例）: https://github.com/lensh/vue-qq/issues/13
+
+其实为觉得没必要，毕竟是个人用的工具，没必要搞个域名，不过强迫症就另说了。具体效果是这样的:
+
+![](https://raw.githubusercontent.com/ds19991999/githubimg/master/picgo/20181103190239.png)
+* 我的`nginx`配置：[nginx.conf](https://github.com/ds19991999/useful-file/blob/master/Jupyter/nginx.conf)
 
 ## 9、结语
 `JupyterLab`的搭建就是这么简单，好的工具就应该好好利用，支持做图，`markdown`，多标签，内部打开网页，`latex`，网页预览，这么好的工具我应该早点发现呀。最后，以秀图结束本文，多多指教！
