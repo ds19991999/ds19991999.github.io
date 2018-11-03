@@ -125,7 +125,7 @@ menu:
   home: /
   about: /about/
   book: /book/
-  notes: http://47.107.129.219:8080/lab?
+  notes: https://jupyterlab.creat.kim
   archives: /archives/
   top: /top/
   categories: /categories/
