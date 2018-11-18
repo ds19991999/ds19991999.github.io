@@ -124,15 +124,17 @@ index_with_subtitle: true
 menu:
   home: /
   about: /about/
-  book: /book/
-  notes: https://jupyterlab.creat.kim
+  resume: /resume/
   archives: /archives/
-  top: /top/
   categories: /categories/
   tags: /tags/
+  top: /top/
   essay: /essay/
-  resume: /resume/
+  book: /book/
+  notes: https://jupyterlab.creat.kim
+  file: https://google.creat.kim
   myseo: /myseo/
+
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -160,6 +162,7 @@ menu_icons:
   resume: handshake-o
   essay: commenting
   friends: link
+  file: file-archive-o
 
 # ---------------------------------------------------------------
 # Scheme Settings
