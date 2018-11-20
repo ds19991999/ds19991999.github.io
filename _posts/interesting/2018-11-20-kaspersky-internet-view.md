@@ -16,4 +16,5 @@ tags:
 
 >细思极恐...查看官网：[kaspersky](https://cybermap.kaspersky.com/)
 
-<iframe width="640" height="640" src="https://cybermap.kaspersky.com/en/widget/dynamic/dark" frameborder="0">
+<iframe width="100%" height="640" src="https://cybermap.kaspersky.com/en/widget/dynamic/dark" frameborder="0">
+
