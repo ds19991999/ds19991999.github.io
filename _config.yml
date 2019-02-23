@@ -15,9 +15,9 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: https://www.ds-vip.top
+url: https://blog.creat.kim
 # 这个baseurl就是个坑
-# baseurl: ds-vip.top
+# baseurl: blog.creat.kim
 permalink: pretty
 
 # Pagination
@@ -234,7 +234,7 @@ font:
 social:
   CSDN: https://blog.csdn.net/ds19991999
   GitHub: https://github.com/ds19991999
-  Email: mailto:super@ds-vip.top
+  Email: mailto:cva.engineer.ding@gmail.com
   Facebook: https://www.facebook.com/ds19991999
   Twitch: https://www.twitch.tv/ds19991999
   Twitter: https://twitter.com/ds19991999
@@ -319,7 +319,7 @@ links_title: 友链
 links_layout: block 
 #links_layout: inline
 links:
-  帅导航: https://www.ds-vip.top/myseo/
+  帅导航: https://blog.creat.kim/myseo/
   幻凡ss: https://hfanss.com
 
 
