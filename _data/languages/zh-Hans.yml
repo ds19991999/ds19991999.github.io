@@ -26,8 +26,8 @@ menu:
   top: TopX
   resume: 简历
   essay: 留言
-  notes: 笔记
   file: 资源
+  aria2: 下载
 
 sidebar:
   overview: 站点概览

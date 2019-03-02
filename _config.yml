@@ -131,8 +131,8 @@ menu:
   top: /top/
   essay: /essay/
   book: /book/
-  notes: https://jupyterlab.creat.kim
   file: https://onedrive.creat.kim
+  aria2: /aria2/
   myseo: /myseo/
 
   #sitemap: /sitemap.xml
@@ -163,6 +163,7 @@ menu_icons:
   essay: commenting
   friends: link
   file: file-archive-o
+  aria2: cloud-download
 
 # ---------------------------------------------------------------
 # Scheme Settings
