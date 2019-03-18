@@ -19,8 +19,8 @@
 * 关于本博客更详细的介绍见：[Wiki页](https://github.com/ds19991999/ds19991999.github.io/wiki)
 
 ## Deploy to netlify
-[教程](https://blog.creat.kim/posts/2019-03-18-jekyll-netlify-cms-admin)
 [![Deploy to netlify](http://image.creat.kim/picgo/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ds19991999/ds19991999.github.io&stack=cms)
+[教程](https://blog.creat.kim/posts/2019-03-18-jekyll-netlify-cms-admin)
 
 ## License
 
