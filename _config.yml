@@ -122,14 +122,14 @@ index_with_subtitle: true
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  about: /about/
+  about: /pages/about/
   resume: /resume/
-  archives: /archives/
-  categories: /categories/
-  tags: /tags/
-  top: /top/
-  message: /message/
-  book: /book/
+  archives: /pages/archives/
+  categories: /pages/categories/
+  tags: /pages/tags/
+  top: /pages/top/
+  message: /pages/message/
+  book: /pages/book/
   file: https://onedrive.creat.kim
   note: /note/
   ariang: /ariang/
