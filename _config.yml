@@ -16,7 +16,6 @@ date_format: '%Y-%m-%d'
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url: https://blog.creat.kim
-# 这个baseurl就是个坑
 # baseurl: blog.creat.kim
 permalink: pretty
 
@@ -129,10 +128,11 @@ menu:
   categories: /categories/
   tags: /tags/
   top: /top/
-  essay: /essay/
+  message: /message/
   book: /book/
   file: https://onedrive.creat.kim
-  aria2: /aria2/
+  note: /note/
+  ariang: /ariang/
   myseo: /myseo/
 
   #sitemap: /sitemap.xml
@@ -150,7 +150,7 @@ menu_icons:
   home: home
   about: user
   book: book
-  notes: pencil
+  note: pencil
   categories: th
   schedule: calendar
   tags: tags
@@ -160,10 +160,10 @@ menu_icons:
   myseo: internet-explorer
   top: signal
   resume: handshake-o
-  essay: commenting
+  message: commenting
   friends: link
   file: file-archive-o
-  aria2: cloud-download
+  ariang: cloud-download
 
 # ---------------------------------------------------------------
 # Scheme Settings

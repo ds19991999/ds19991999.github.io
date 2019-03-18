@@ -25,9 +25,10 @@ menu:
   friends: 友链
   top: TopX
   resume: 简历
-  essay: 留言
+  message: 留言
   file: 资源
-  aria2: 下载
+  ariang: 下载
+  note: 笔记
 
 sidebar:
   overview: 站点概览
