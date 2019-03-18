@@ -20,7 +20,8 @@
 
 ## Deploy to netlify
 [![Deploy to netlify](http://image.creat.kim/picgo/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ds19991999/ds19991999.github.io&stack=cms)
-[教程](https://blog.creat.kim/posts/2019-03-18-jekyll-netlify-cms-admin)
+
+先fork到自己的仓库，然后参考[博文](https://blog.creat.kim/posts/2019-03-18-jekyll-netlify-cms-admin)进行配置。
 
 ## License
 
