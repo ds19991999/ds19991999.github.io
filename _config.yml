@@ -1,0 +1,10 @@
+domain: https://xujinkai.net
+
+# Conversion
+exclude: ["*.lnk", "*.bat", "README.md", "Gemfile*"]
+
+# Outputting
+# DO NOT use date as url AND change timezone,
+# or post would missing after upload
+permalink: /posts/:title
+timezone: Europe/Amsterdam
