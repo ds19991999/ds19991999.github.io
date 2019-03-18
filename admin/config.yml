@@ -20,7 +20,7 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: "标题", name: "title", widget: "string", tagname: "h1"}
       - {label: "永久链接", name: "permalink", widget: "string", default: "/posts/new", required: true}
-      - {label: "数学公式", name: "math", widget: "选择", options: ["0", "1"], default: "0"}
+      - {label: "数学公式", name: "math", widget: "select", options: ["0", "1"], default: "0"}
       - {label: "标签", name: "tags", widget: "string", required: true}
       - {label: "归档", name: "categories", widget: "string", required: true}
       - {label: "网易云音乐", name: "music-id", widget: "string", required: false}
