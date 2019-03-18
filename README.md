@@ -8,7 +8,7 @@
 <div align="center">
     <p><a href="https://www.jekyll.com.cn/">Jekyll</a>博客<a href="https://github.com/iissnan/hexo-theme-next">Next</a>主题配置</p>
   <a href="https://blog.creat.kim">
-    <img src="https://raw.githubusercontent.com/ds19991999/githubimg/master/picgo/20180820123940.jpg">
+    <img src="http://image.creat.kim/picgo/20190318150454.png">
   </a>
 </div>
 
