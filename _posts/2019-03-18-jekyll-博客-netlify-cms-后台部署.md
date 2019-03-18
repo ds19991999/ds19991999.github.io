@@ -1,10 +1,12 @@
 ---
 title: Jekyll 博客 Netlify CMS 后台部署
 permalink: /posts/2019-03-18-jekyll-netlify-cms-admin
+description: 利用 GitHub pages、Jekyll 和 Netlify CMS 部署一个永久免费的静态博客，包含后台管理。
 math: '0'
 tags: 'jekyll, jetlify-cms'
 categories: '博客, Jekyll'
 date: '2019-03-18 21:55:07 +08:00'
+updated: '2019-03-18 22:23:00 +08:00'
 ---
 * `netlify` 后台：https://app.netlify.com/
 * `netlify config` 配置文档：https://www.netlifycms.org/docs/intro/
