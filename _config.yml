@@ -1,4 +1,4 @@
-domain: https://xujinkai.net
+domain: https://blog.creat.kim
 
 # Conversion
 exclude: ["*.lnk", "*.bat", "README.md", "Gemfile*"]
