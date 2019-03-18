@@ -1,0 +1,46 @@
+backend:
+  name: github
+  repo: ds19991999/ds19991999.github.io
+  branch: master # Branch to update (master by default)
+
+# display_url: 
+media_folder: "uploads" # Folder where user uploaded files should go
+# slug:
+#   encoding: "ascii"
+#   clean_accents: true
+# publish_mode: editorial_workflow
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Post" # Used in the UI, ie.: "New Post"
+    folder: "/_posts" # The path to the folder where the documents are stored
+    sort: "date:desc" # Default is title:asc
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "Permalink", name: "permalink", widget: "string", default: "/posts/new", required: true}
+      - {label: "Display", name: "display", widget: "select", options: ["normal", "sticky", "hide"], default: "normal"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Tags", name: "tags", widget: "string", required: true}
+      - {label: "Emoji-Tag", name: "emotag", widget: "string", required: false}
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss Z"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Comment", name: "comment", widget: "boolean", default: true}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Component", name: "component", widget: "string", default: ""}
+    meta: # Meta data fields. Just like fields, but without any preview element
+  - name: "pages"
+    label: "Pages"
+    folder: "/pages"
+    sort: "title:asc"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Permalink", name: "permalink", widget: "string", default: "/pages/new", required: true}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Comment", name: "comment", widget: "boolean", default: true}
+      - {label: "DrawerClose", name: "drawer-close", widget: "boolean", default: false}
+      - {label: "SideBar", name: "sidebar", widget: "select", options: ["null", "bio", "toc"], default: "null"}
+      - {label: "Layout", name: "layout", widget: "select", options: ["null", "index", "post"], default: "index"}
+      - {label: "Component", name: "component", widget: "string", default: ""}
