@@ -4,7 +4,7 @@ layout: null
 <html>
 <head>
 	<link rel="canonical" href="{{site.domain}}"/>
-	<title>XUJINKAI</title>
+	<title>DS Blog</title>
 </head>
 <body>
 	<h1>
