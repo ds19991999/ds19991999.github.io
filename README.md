@@ -4,7 +4,6 @@
 [![Github downloads](https://img.shields.io/github/downloads/ds19991999/ds19991999.github.io/total.svg)](https://github.com/ds19991999/ds19991999.github.io/releases/latest)
 [![DUB](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/ds19991999/ds19991999.github.io/blob/master/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/ds19991999/ds19991999.github.io.svg)](https://github.com/ds19991999/ds19991999.github.io/releases)
-[![Deploy to netlify](http://image.creat.kim/picgo/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ds19991999/ds19991999.github.io&stack=cms)
 
 <div align="center">
     <p><a href="https://www.jekyll.com.cn/">Jekyll</a>博客<a href="https://github.com/iissnan/hexo-theme-next">Next</a>主题配置</p>
@@ -22,3 +21,6 @@
 ## License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+
+## Deploy to netlify
+[![Deploy to netlify](http://image.creat.kim/picgo/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ds19991999/ds19991999.github.io&stack=cms)
