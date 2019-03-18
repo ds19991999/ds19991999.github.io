@@ -23,4 +23,6 @@
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
 ## Deploy to netlify
+[教程](https://blog.creat.kim/posts/2019-03-18-jekyll-netlify-cms-admin)
+
 [![Deploy to netlify](http://image.creat.kim/picgo/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ds19991999/ds19991999.github.io&stack=cms)
