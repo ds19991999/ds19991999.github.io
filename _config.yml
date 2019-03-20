@@ -322,6 +322,8 @@ links_layout: block
 links:
   帅导航: https://blog.creat.kim/myseo/
   幻凡ss: https://hfanss.com
+  Searx: https://creat.kim
+  Telegram: https://t.me/baba2333
 
 
 # ---------------------------------------------------------------
@@ -566,7 +568,7 @@ leancloud_visitors:
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: false
+  enable: true
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>小站访问人数
