@@ -26,4 +26,15 @@ type: about
 
 ## 联系方式
 
-* [TG](https://t.me/baba233)
+* [TG](https://t.me/baba2333)
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6459493734251675"
+     data-ad-slot="5648396167"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
