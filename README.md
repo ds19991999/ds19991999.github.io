@@ -4,6 +4,7 @@
 [![Github downloads](https://img.shields.io/github/downloads/ds19991999/ds19991999.github.io/total.svg)](https://github.com/ds19991999/ds19991999.github.io/releases/latest)
 [![DUB](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/ds19991999/ds19991999.github.io/blob/master/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/ds19991999/ds19991999.github.io.svg)](https://github.com/ds19991999/ds19991999.github.io/releases)
+[![Badge](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu/#/zh_CN)
 
 <div align="center">
     <p><a href="https://www.jekyll.com.cn/">Jekyll</a>博客<a href="https://github.com/iissnan/hexo-theme-next">Next</a>主题配置</p>
